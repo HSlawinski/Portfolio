@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Premium Banking Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Portfolio<span>.</span></div>
+            <ul>
+                <li><a href="#home" class="lang active" data-pl="Start" data-en="Home">Start</a></li>
+                <li><a href="#experience" class="lang" data-pl="Doświadczenie" data-en="Experience">Doświadczenie</a></li>
+                <li><a href="#about" class="lang" data-pl="O mnie" data-en="About">O mnie</a></li>
+                <li><a href="#contact" class="lang" data-pl="Kontakt" data-en="Contact">Kontakt</a></li>
+            </ul>
+
+            <div class="lang-switch">
+                <button type="button" id="btn-pl" class="active">
+                    <img src="assets/plbutton.png" alt="Polski">
+                </button>
+                <button type="button" id="btn-en">
+                    <img src="assets/enbutton.png" alt="English">
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3 class="lang" data-pl="Cześć," data-en="Hi,">Cześć,</h3>
+            <h1><span class="lang" data-pl="Jestem" data-en="I'm">Jestem</span> <span>Hubert Sławiński</span></h1>
+            <h2 class="dynamic-text"></h2>
+            
+            <p class="lang" 
+               data-pl="Ekspert w zarządzaniu relacjami z klientami zamożnymi (HNWI). Specjalizuję się w optymalizacji portfeli inwestycyjnych oraz dostarczaniu prestiżowych rozwiązań finansowych z zachowaniem najwyższych standardów dyskrecji." 
+               data-en="Expert in High-Net-Worth Individual (HNWI) relationship management. I specialize in investment portfolio optimization and delivering prestigious financial solutions with the highest standards of discretion.">
+               Jestem osobą komunikatywną, zmotywowaną i ambitną z podstawową znajomością systemów IT w trakcie studiów inżynierskich o specjalizacji Inżynier Oprogramowania.
+            </p>
+            
+            <div class="cta-buttons">
+                <a href="#contact" class="btn-primary lang" data-pl="Zatrudnij mnie" data-en="Hire Me">Zatrudnij mnie</a>
+                <a href="#experience" class="btn-secondary lang" data-pl="Moje doświadczenie" data-en="My Experience">Moje doświadczenie</a>
+            </div>
+            <!-- Social Media  -->
+            <div class="social-icons">
+                <a href="#" title="LinkedIn">in</a>
+                <a href="#" title="GitHub">git</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/PortfolioJPG.jpg" alt="Jan Kowalski">
+        </div>
+    </section>
+
+    <section id="experience" class="experience-timeline">
+    <h2 class="lang" data-pl="Moja Ścieżka Zawodowa" data-en="Professional Journey">Moja Ścieżka Zawodowa</h2>
+    
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">02.2024 - 10.2024</div>
+            <div class="timeline-content">
+                <h3 class="lang" data-pl="Specjalista ds. sprzedaży i dostaw" data-en="Sales & Delivery Specialist">Specjalista ds. sprzedaży i dostaw</h3>
+                <ul>
+                    <li class="lang" data-pl="Realizacja sprzedaży oraz kompleksowa obsługa klientów." data-en="Sales execution and comprehensive customer service.">Realizacja sprzedaży oraz kompleksowa obsługa klientów.</li>
+                    <li class="lang" data-pl="Planowanie i koordynacja dostaw, dbanie o terminowość oraz jakość usług." data-en="Delivery planning and coordination, ensuring timeliness and quality.">Planowanie i koordynacja dostaw, dbanie o terminowość oraz jakość usług.</li>
+                    <li class="lang" data-pl="Praca z systemami CRM i zarządzanie bazą danych klientów." data-en="Working with CRM systems and managing customer databases.">Praca z systemami CRM i zarządzanie bazą danych klientów.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">10.2024 - 11.2024</div>
+            <div class="timeline-content">
+                <h3 class="lang" data-pl="Call Center – Obsługa Klienta" data-en="Call Center – Customer Service">Call Center – Obsługa Klienta</h3>
+                <ul>
+                    <li class="lang" data-pl="Profesjonalna komunikacja i doradztwo produktowe." data-en="Professional communication and product advisory.">Profesjonalna komunikacja i doradztwo produktowe.</li>
+                    <li class="lang" data-pl="Rozwijanie cierpliwości i umiejętności współpracy z różnymi działami." data-en="Developing patience and cross-departmental collaboration skills.">Rozwijanie cierpliwości i umiejętności współpracy z różnymi działami.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">10.2024 - Obecnie</div>
+            <div class="timeline-content">
+                <h3 class="lang" data-pl="Młodszy specjalista ds. instalacji systemów inteligentnych domów" data-en="Junior Smart Home Systems Installer">Młodszy specjalista ds. instalacji systemów inteligentnych domów</h3>
+                <ul>
+                    <li class="lang" data-pl="Wsparcie przy montażu, konfiguracji i serwisowaniu automatyki budynkowej." data-en="Support in installation, configuration, and maintenance of building automation.">Wsparcie przy montażu, konfiguracji i serwisowaniu automatyki budynkowej.</li>
+                    <li class="lang" data-pl="Diagnostyka i rozwiązywanie problemów technicznych." data-en="Diagnostics and technical problem-solving.">Diagnostyka i rozwiązywanie problemów technicznych.</li>
+                    <li class="lang" data-pl="Współpraca z zespołem technicznym w celu zapewnienia niezawodności systemów." data-en="Collaboration with the technical team to ensure system reliability.">Współpraca z zespołem technicznym w celu zapewnienia niezawodności systemów.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="scrypt.js"></script>
+</body>
+</html>
