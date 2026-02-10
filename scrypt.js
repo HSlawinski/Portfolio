@@ -1,7 +1,7 @@
 // 1. KONFIGURACJA I ZMIENNE GLOBALNE
 const phrases = {
     pl: ["Obsługa klienta Premium"],
-    en: ["Premium Banking Specialist", "Investment Expert", "Wealth Management Advisor"]
+    en: ["Premium client service"]
 };
 
 let currentLang = 'pl'; 
