@@ -340,3 +340,144 @@ nav ul li a:hover, nav ul li a.active {
     left: 0;
     color: var(--main-color);
 }
+
+ /* Celujemy w dwa nagłówki h3, które występują bezpośrednio po sobie */
+.timeline-content h3 + h3 {
+    margin-top: -10px; /* Ujemny margines podciąga drugi wiersz do góry */
+    font-size: 1.05rem; /* Delikatnie mniejszy font dla podsekcji */
+    font-weight: 400; /* Nieco lżejsza waga tekstu dla czytelności */
+}
+
+.about-section {
+    display: block !important;
+    visibility: visible !important;
+    
+    margin-top: 50px;
+}
+
+.about-section h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: var(--main-color);
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.about-card {
+    background: var(--bg-color);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 171, 240, 0.1);
+    transition: 0.4s;
+    text-align: center;
+}
+
+.about-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--main-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about-card.highlight {
+    background: linear-gradient(145deg, var(--bg-color), #1a3a5a);
+    border: 1px solid var(--main-color);
+}
+
+.about-card .icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.about-card h3 {
+    margin-bottom: 15px;
+    color: var(--main-color);
+}
+
+.about-card p {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #ccc;
+}
+
+.soft-skills-list {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.soft-skills-list li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 171, 240, 0.1);
+    padding-bottom: 5px;
+}
+
+.contact-section {
+    padding: 100px 10%;
+    background: var(--bg-color);
+    border-top: 1px solid rgba(0, 171, 240, 0.1);
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-details .detail-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.contact-details a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.contact-details a:hover {
+    color: var(--main-color);
+}
+
+.contact-cta {
+    background: var(--second-bg-color);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 171, 240, 0.2);
+    flex: 0 1 400px;
+}
+
+.contact-cta p {
+    margin-bottom: 25px;
+    font-size: 14px;
+}

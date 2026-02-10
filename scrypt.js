@@ -1,6 +1,6 @@
 // 1. KONFIGURACJA I ZMIENNE GLOBALNE
 const phrases = {
-    pl: ["Specjalista ds. Klienta Premium", "Ekspert Inwestycyjny", "Doradca Wealth Management"],
+    pl: ["Obsługa klienta Premium"],
     en: ["Premium Banking Specialist", "Investment Expert", "Wealth Management Advisor"]
 };
 
@@ -75,7 +75,7 @@ function changeLanguage(lang) {
     langElements.forEach(el => {
         const translation = el.getAttribute(`data-${lang}`);
         if (translation) {
-            el.textContent = translation;
+            el.innerHTML = translation;
         }
     });
 
